@@ -1,3 +1,48 @@
 body {
-    font-family: "Helvetica Neue";    
+    font-family: "Helvetica Neue";
+    background-image: url("resources/background.png");
+}
+
+.jumbotron {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+
+.loginscreen {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 416px;
+    max-height: 500px;
+    margin: auto;
+    background-image: url(resources/window.png);
+    background-size: 100% 100%;
+}
+
+.logintitle p{
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-size: 2.5em;
+}
+
+.textbox_text{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 13px;
+}
+
+
+
+.textbox {
+    width: 50%;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: #4E9491;
+    border-radius: 25px;
+    border-width: 3px;
 }
