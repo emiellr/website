@@ -1,3 +1,16 @@
 body {
-    font-family: "Helvetica Neue";    
+    font-family: "Helvetica Neue";
+    background-image: url("resources/background.png");
+}
+
+.signUp {
+	display: inline-block;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url("resources/window.png");
+	background-size: 100% 100%;
+	width: 300px;
+	height: 400px;
 }
