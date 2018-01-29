@@ -3,6 +3,7 @@ body {
     background-image: url("resources/background.png");
 }
 
+<<<<<<< HEAD
 .jumbotron {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 }
@@ -45,4 +46,16 @@ body {
     border-color: #4E9491;
     border-radius: 25px;
     border-width: 3px;
+=======
+.signUp {
+	display: inline-block;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url("resources/window.png");
+	background-size: 100% 100%;
+	width: 300px;
+	height: 400px;
+>>>>>>> 8231411e8b1daee9edf1115be5e3d44ce6ed7f20
 }
